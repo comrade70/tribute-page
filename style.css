@@ -1,0 +1,83 @@
+/*GENERAL CSS*/
+
+:root{
+    --font-family: calibri, sans-serif, heveltica;
+    --font-size: 14px;
+    --line-height: 1.5rem;
+    --background-color:whitesmoke;
+    --color:black;
+    --box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+}
+
+a:hover{
+    color:orange;
+}
+
+#main{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    padding:10px 10px;
+    text-align: center;
+    align-items: center;
+    font-size:var(--font-size);
+    line-height:var(--line-height);
+
+}
+
+/*END OF GENERAL CSS*/
+/*----------------------------------------*/
+
+/*TITLE*/
+
+#title{
+    background:blue;
+    color:white;
+}
+
+#title h1{
+    line-height: 0.5rem;
+    margin-bottom: 10px;
+    font-family: "roboto";
+}
+/*END OF TITLE*/
+
+/*----------------------------------------*/
+
+/*TRIBUTE IMAGE*/
+#img-div{
+    margin-top: 10px;
+    background-color:white;
+    box-shadow: var(--box-shadow);
+}
+
+#image{
+    max-width:90%;
+    height:auto;
+}
+
+#img-caption{
+    font-size: 12px;
+    padding: 5px;
+}
+/*END OF TRIBUTE IMAGE*/
+
+/*----------------------------------------*/
+
+/*TRIBUTE INFO*/
+blockquote{
+    font-size:var(--font-size);
+    text-align: left;
+}
+
+#tribute-info p{
+    font-size: 1rem;
+    text-align:justify;
+}
+
+/*END OF TRIBUTE INFO*/
